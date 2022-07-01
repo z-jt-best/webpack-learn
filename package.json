@@ -1,0 +1,16 @@
+{
+    "name": "webpack-learn",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev:loader": "webpack-cli build --config ./config/fileLoader.config.js",
+        "dev:mulFile": "webpack-cli build --config ./config/mulFile.config.js"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^5.5.0",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-merge": "^5.8.0"
+    }
+}
